@@ -1,5 +1,15 @@
 .navbar-info{
   background: #140055;
-  height: 30px;
-  width: 100%;
+  color: white;
+  height: 29px;
+  padding-top: 3px;
+}
+.background-purple{
+  background: #2f236e;
+  color: white;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.txt-title{
+  font-family: 'Montserrat', sans-serif;
 }
