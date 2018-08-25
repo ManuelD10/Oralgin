@@ -1,39 +1,66 @@
-.navbar-info{
-  background: #140055;
-  color: white;
-  height: 29px;
-  padding-top: 3px;
-}
 .no-padding{
   padding-left: 0px;
   padding-right: 0px;
 }
-.background-purple{
-  background: #2f236e;
-  color: white;
-  padding-top: 45px;
-  padding-bottom: 45px;
+
+
+.txt-paragraph{
+  color: #636263;
 }
-.txt-title{
-  font-family: 'Montserrat', sans-serif;
+.txt-color-purple{
+  color: #201364;
 }
+
 .background-lilac{
   background: #ece8ff;
 }
 .background-pink{
   background: #c994ab;
 }
+.background-purple{
+  background: #2f236e;
+}
+
 .img-odontologia-general{
   background: url(../images/odontologiaGeneral.jpg);
   background-size: cover;
 }
-.txt-color-purple{
-  color: #201364;
-}
-.ctn-odontologia{
-  width: 330px;
-}
 .img-ortodoncia{
   background: url(../images/ortodoncia.jpg);
   background-size: cover;
+}
+.img-periodoncia{
+  background: url(../images/periodoncia.jpg);
+  background-size: cover;
+}
+.img-cirugia-oral{
+  background: url(../images/cirugiaOral.jpg);
+  background-size: cover;
+}
+.img-radiologia{
+  background: url(../images/radiologiaOral.jpg);
+  background-size: cover;
+}
+
+.navbar-info{
+  background: #140055;
+  color: white;
+  height: 29px;
+  padding-top: 3px;
+}
+.ctn-odontologia{
+  margin: 0 auto;
+  text-align: justify;
+  width: 330px;
+}
+.ctn-objetivo{
+  background: #2f236e;
+  color: white;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+.ctn-ortodoncia{
+  margin: 0 auto;
+  text-align: justify;
+  width: 370px;
 }
