@@ -10,6 +10,7 @@ body{
   font-family: OpenSans, sans-serif;
 }
 
+
 .left{
   float: left;
 }
@@ -20,7 +21,18 @@ body{
   padding-left: 0px;
   padding-right: 0px;
 }
-
+.btn-hover{
+  color: #636263;
+}
+.btn-hover:hover{
+  color: #746e98;
+  font-weight: bold;
+}
+.btn-cotizar{
+  color: white;
+  background-color: #2f236e;
+  border-color: #2f236e;
+}
 
 .txt-paragraph{
   color: #636263;
@@ -81,4 +93,25 @@ body{
   margin: 0 auto;
   text-align: justify;
   width: 370px;
+}
+.li-space{
+  margin-bottom: 10px;
+}
+.li-space:first-child {
+  margin-top: 10px;
+}
+
+/*Media Querys*/
+@media (max-width: 650px) {
+  .navbar-info{
+    height: 55px;
+  }
+}
+@media (max-width: 767px){
+  .img-odontologia-general{
+    height: 160px;
+  }
+  .img-ortodoncia{
+    height: 160px;
+  }
 }
