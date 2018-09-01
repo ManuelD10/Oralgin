@@ -51,18 +51,7 @@ body{
   background: #2f236e;
 }
 
-.img-odontologia-general{
-  background: url(../images/odontologiaGeneral.jpg);
-  background-size: cover;
-}
-.img-ortodoncia{
-  background: url(../images/ortodoncia.jpg);
-  background-size: cover;
-}
-.img-periodoncia{
-  background: url(../images/periodoncia.jpg);
-  background-size: cover;
-}
+
 .img-cirugia-oral{
   background: url(../images/cirugiaOral.jpg);
   background-size: cover;
@@ -96,7 +85,7 @@ body{
 .ctn-ortodoncia{
   margin: 0 auto;
   text-align: justify;
-  width: 370px;
+  width: 330px;
 }
 .li-space{
   margin-bottom: 10px;
@@ -109,13 +98,5 @@ body{
 @media (max-width: 650px) {
   .navbar-info{
     height: 55px;
-  }
-}
-@media (max-width: 767px){
-  .img-odontologia-general{
-    height: 160px;
-  }
-  .img-ortodoncia{
-    height: 160px;
   }
 }
