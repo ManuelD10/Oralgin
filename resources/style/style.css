@@ -26,6 +26,7 @@ body{
 }
 .btn-hover:hover{
   color: #746e98;
+  text-decoration: underline;
 }
 .btn-cotizar{
   color: white;
@@ -53,7 +54,13 @@ body{
 .background-purple{
   background: #2f236e;
 }
-
+.background-popup{
+  background: url(../images/popup.png);
+  border: 1px solid white;
+}
+.background-popup-row{
+  background: url(../images/popup-row.png);
+}
 
 .img-cirugia-oral{
   background: url(../images/cirugiaOral.jpg);

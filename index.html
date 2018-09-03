@@ -20,7 +20,7 @@
           <div class="row">
             <div class="col-md">
               <a class="navbar-brand" href="#">
-                <img alt="Brand" width="218" height="81" src="resources/images/LOGO-ORALGIN.png">
+                <img alt="Brand" width="50%" src="resources/images/LOGO-ORALGIN.png">
               </a>
             </div>
             <div class="col-md align-self-center">
@@ -32,7 +32,7 @@
                   <a class="nav-link btn-hover" href="#idServices">Servicios</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link btn-hover" href="#">Precios</a>
+                  <a class="nav-link btn-hover" data-toggle="modal" data-target="#precios" href="">Precios</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link btn-hover" href="#idContact">Contáctanos</a>
@@ -51,6 +51,12 @@
       <!--Carouse -->
       <div class="row">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-100" src="resources/images/slide/SLIDE-01-ORALGIN.jpg" alt="First slide">
@@ -79,11 +85,11 @@
 
       <div class="row ctn-objetivo" id="idObjetivos">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md txt-title text-right">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-4 align-self-center" style="text-align: center;">
               <h1>OBJETIVOS</h1>
             </div>
-            <div class="col-12 col-md">
+            <div class="col-12 col-md-8">
               Mantener un sentido ético y profesional.<br>
               Generar un sentido de salud y cuidad oral en nuestros pacientes.<br>
               Brindar tranquilidad y comodidad en la consulta odontológica.<br>
@@ -153,7 +159,7 @@
         </div>
         <div class="col-12 col-md-6 background-lilac">
           <div class="row">
-            <img src="resources/images/periodoncia.jpg" width="100%" alt="Periodoncia">
+            <img src="resources/images/periodoncia.jpg" style="width: 100%; height: 20%;" alt="Periodoncia">
           </div>
           <div class="row" style="padding-top: 40px;">
             <div class="ctn-ortodoncia">
@@ -221,7 +227,7 @@
         <div class="container">
           <div class="row justify-content-center" style="margin-top: 25px; margin-bottom: 25px;">
             <img src="resources/images/icon-contacto.jpg" alt="ORALGIN">
-            <h3 style="color:#746e98; margin-top: 11px; margin-left: 10px;">CONTÁCTANOS</h3>
+            <h3 style="color:white; margin-top: 11px; margin-left: 10px;">CONTÁCTANOS</h3>
           </div>
           <div class="row justify-content-center">
             <div class="col-md-5">
@@ -253,9 +259,9 @@
             <div class="col-md-5 align-self-star">
               <ul style="color: white; list-style: none;">
                 <li class="li-space"> <i class="fas fa-envelope" style="margin-right:10px;"></i>clinicaoralgin@gmail.com</li>
-                <li class="li-space"> <i class="fas fa-globe-americas" style="margin-right:10px;"></i>Cr.a. 71 No. 52 - 90</li>
+                <li class="li-space"> <i class="fas fa-globe-americas" style="margin-right:10px;"></i>Cra. 71 No. 52 - 90</li>
                 <li class="li-space"> <i class="fas fa-mobile-alt" style="margin-right:10px;"></i> 310-378 2066</li>
-                <li class="li-space"> <i class="fas fa-phone" style="margin-right:10px;"></i>775 4261</li>
+                <li class="li-space"> <i class="fas fa-phone" style="margin-right:10px;"></i>57 (1)-775 4261</li>
               </ul>
             </div>
           </div>
@@ -265,7 +271,190 @@
         </div>
       </section>
       <!-- End Footer -->
+    </div>
 
+
+<!-- -----------------------------------------------------------------------------------------------------------------  -->
+    <!-- Modal -->
+    <div class="modal fade" id="precios" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content background-popup">
+            <div class="container">
+              <div class="row" style="background:#9492bc; padding-top:25px; padding-bottom: 25px;">
+                <div class="col" style="color: white; text-align: center;">
+                  PROCEDIMIENTOS
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  TARIFA PARTICULAR
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Higiene oral
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $60,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Resina una superficies
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $50,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Resina dos superficies
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $80,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Resina tres superficies
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $50,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Sellantes por dientes
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $15,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Fluorización
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $20,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Blanqueamiento dental
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $420,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Coronas en solo porcelana
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $800,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Coronas metalporcelana
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $500,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Exodoncia sencilla
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $50,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Exodoncia abierta
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $250,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Protesis total acrilico
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $400,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Protesis total alto impato
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $600,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Protesis parcial flexident
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $500,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Nucleo uni
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $150,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Nucleo multi
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $200,000
+                </div>
+              </div>
+
+              <div class="row" style="padding-top:10px; padding-bottom:10px;">
+                <div class="col" style="color: white; text-align: center;">
+                  Conductos uni
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+                  $200,000
+                </div>
+              </div>
+
+              <div class="row background-popup-row" style="padding-top:10px; padding-bottom: 10px;">
+                <div class="col" style="color: white; text-align: center;">
+
+                </div>
+                <div class="col" style="color: white; text-align: center;">
+
+                </div>
+              </div>
+
+            </div>
+
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
