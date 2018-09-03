@@ -38,6 +38,13 @@ body{
   box-shadow: 4px 4px 9px black;
   color: white;
 }
+.btn-cita{
+  color: white;
+  font-size: 13px;
+  height:72px;
+  width:103px;
+  cursor: pointer;
+}
 .txt-paragraph{
   color: #636263;
 }
